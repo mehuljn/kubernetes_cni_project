@@ -209,3 +209,7 @@ export LC_ALL=C
 mkdir /var/cni/
 cp /vagrant/provisioning/ipseccni.py /opt/cni/bin/
 pip install -r /vagrant/requirements
+
+
+ipsec up $OTHERNODE_1
+ipsec up $OTHERNODE_2
